@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "rentx",
+    "slug": "rentx",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "assetBundlePatterns": ["**/*"],
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#1b1b1f",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wmlDB.app"
+    }
+  }
+}
