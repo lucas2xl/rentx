@@ -48,6 +48,7 @@ export const Input = forwardRef(
           onBlur={() => handleChangeFocus(false)}
           secureTextEntry={security}
           ref={ref as any}
+          placeholderTextColor={colors.shape}
           editable={editable}
           {...rest}
         />

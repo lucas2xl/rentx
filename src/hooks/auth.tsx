@@ -70,7 +70,7 @@ const AuthProvider = ({ children }: IAuthProvideProps) => {
       email: user.email,
       driver_license: user.driver_license,
       password: user.password,
-    });
+    }).catch(res => console.log(res));
   };
 
   const signIn = async ({ email, password }: ISignInCredentials) => {
